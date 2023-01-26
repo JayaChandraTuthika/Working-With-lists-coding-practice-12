@@ -1,0 +1,29 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f5f8;
+}
+.main-text {
+  font-size: 40px;
+  font-family: 'roboto';
+  font-weight: 600;
+  color: #2d3a35;
+  text-align: center;
+}
+.number {
+  color: #c20a72;
+}
+.bottom-text {
+  font-size: 15px;
+  color: ;
+}
+.click-btn {
+  color: white;
+  background-color: #007bff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+}
