@@ -1,0 +1,39 @@
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 40%;
+}
+.main-heading {
+  color: white;
+  font-size: 35px;
+}
+.main-para {
+  color: white;
+  font-size: 25px;
+}
+.btn1 {
+  padding: 8px;
+  color: white;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 3px;
+  margin: 10px;
+}
+.btn2 {
+  padding: 8px;
+  color: #94a3b8;
+  background-color: transparent;
+  border: 1px solid #94a3b8;
+  border-radius: 3px;
+  margin: 10px;
+}
+.bottom-text {
+  color: white;
+}

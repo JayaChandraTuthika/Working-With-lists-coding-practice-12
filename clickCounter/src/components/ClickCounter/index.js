@@ -18,9 +18,8 @@ class ClickCounter extends Component {
     return (
       <div className="bg-container">
         <h1 className="main-text">
-          The Button has Clicked
-          <br />
-          <span className="number">{count}</span> Times
+          The Button has been clicked
+          <span className="number"> {count}</span> times
         </h1>
         <p className="bottom-text">Click the button to Increase the count</p>
         <button className="click-btn" type="button" onClick={this.onIncrement}>
