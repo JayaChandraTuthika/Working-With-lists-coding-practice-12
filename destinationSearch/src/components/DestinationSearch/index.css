@@ -1,0 +1,47 @@
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 550px;
+  padding: 25px;
+}
+.heading {
+  font-size: 35px;
+  font-family: 'roboto';
+  font-weight: 600;
+  color: #252627;
+  /* border: 1px solid black; */
+}
+.search-input {
+  background-color: #f1f5f9;
+  font-family: 'roboto';
+  font-size: 15px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  /* border: 1px solid black; */
+}
+.search-icon {
+  height: 25px;
+
+  /* border: 1px solid black; */
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.cards-container {
+  /* border: 1px solid black; */
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style-type: none;
+}

@@ -1,0 +1,18 @@
+.card-item {
+  width: 200px;
+  height: 200px;
+  /* background-color: grey; */
+  margin: 15px;
+  /* border: 1px solid grey; */
+}
+.card-image {
+  width: 100%;
+  border-radius: 10px;
+  height: 70%;
+}
+.card-text {
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a;
+}
