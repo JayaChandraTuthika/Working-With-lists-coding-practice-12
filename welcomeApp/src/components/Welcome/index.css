@@ -1,0 +1,13 @@
+.bg-container {
+  height: 100vh;
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bree serif';
+}
+.heading {
+  font-size: 45px;
+  color: #f0bb03;
+}
