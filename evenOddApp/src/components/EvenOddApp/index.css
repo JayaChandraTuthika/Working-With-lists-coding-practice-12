@@ -1,0 +1,41 @@
+.bg-container {
+  height: 100vh;
+  /* background-color: grey; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  width: 60%;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.main-heading {
+  font-family: 'roboto';
+  font-size: 35px;
+  font-weight: 600;
+  color: #0f172a;
+}
+.para {
+  font-family: 'roboto';
+  color: #334155;
+  font-size: 20px;
+}
+.increment-btn {
+  font-family: 'roboto';
+  color: #334155;
+  background-color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.last-para {
+  font-family: 'roboto';
+  color: #334155;
+  font-size: 15px;
+}
