@@ -1,0 +1,44 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+.inner1 {
+  padding: 25px;
+  background-color: black;
+  text-align: center;
+  border-radius: 15px;
+}
+.inner2 {
+  padding: 25px;
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+.heading1 {
+  color: white;
+  font-size: 30px;
+  font-family: 'Bree serif';
+}
+.heading2 {
+  color: black;
+  font-size: 30px;
+  font-family: 'Bree serif';
+}
+.light-button {
+  padding: 8px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+.dark-button {
+  padding: 8px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
