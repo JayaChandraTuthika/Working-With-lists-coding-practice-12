@@ -1,0 +1,16 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  width: 450px;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
