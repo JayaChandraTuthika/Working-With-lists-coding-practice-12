@@ -57,7 +57,11 @@ class SimpleTodos extends Component {
           <h1 className="heading">Simple Todos</h1>
           <ul className="todos-container">
             {todoList.map(todo => (
-              <TodoItem todoDetails={todo} event={this.onDeleteTodo} />
+              <TodoItem
+                todoDetails={todo}
+                event={this.onDeleteTodo}
+                key={todo.id}
+              />
             ))}
           </ul>
         </div>
