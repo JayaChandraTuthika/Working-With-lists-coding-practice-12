@@ -1,0 +1,26 @@
+* {
+  font-family: 'roboto';
+}
+
+.bg-container {
+  min-height: 100vh;
+  background-color: #ffc2a0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  background-color: white;
+  padding: 35px;
+  width: 80%;
+}
+.heading {
+  font-size: 35px;
+  color: #ff8542;
+  text-align: center;
+}
+.todos-container {
+  /* background-color: aqua; */
+  width: 100%;
+}

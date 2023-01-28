@@ -1,0 +1,20 @@
+.todo-item {
+  /* border: 2px solid black; */
+  /* padding: 5px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 40px 5px 40px;
+}
+.todo-text {
+  font-size: 23px;
+  color: black;
+  font-family: 'roboto';
+}
+.delete-btn {
+  padding: 8px;
+  background-color: white;
+  color: #ff0b37;
+  border: 1px solid #ff0b37;
+  border-radius: 5px;
+}
