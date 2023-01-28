@@ -1,0 +1,27 @@
+* {
+  /* border: 1px solid black; */
+  font-family: 'roboto';
+}
+
+.list-item {
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.list-item-text {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #475569;
+  margin: 0;
+}
+.arrow-image {
+  height: 20px;
+}
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
