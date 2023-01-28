@@ -1,0 +1,51 @@
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  min-height: 100vh;
+  display: flex;
+  padding: 50px;
+  align-items: center;
+}
+.container-1 {
+  width: 450px;
+  padding: 25px;
+  /* border: 1px solid black; */
+}
+.banner-image {
+  width: 50vw;
+}
+.heading {
+  font-size: 55px;
+  color: white;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+.label-input {
+  font-size: 18px;
+  color: white;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+.input-text {
+  background-color: transparent;
+  border: 1px solid #e4e7eb;
+  border-radius: 6px;
+  padding: 8px;
+  outline: none;
+  margin-top: 10px;
+  width: 100%;
+  color: #e4e7eb;
+}
+
+.output-text {
+  background-color: white;
+  color: #219a6f;
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid #e4e7eb;
+  border-radius: 8px;
+  padding: 18px;
+  outline: none;
+  margin-top: 20px;
+  width: 200px;
+  text-align: center;
+}
