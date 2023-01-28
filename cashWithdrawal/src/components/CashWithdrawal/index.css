@@ -1,0 +1,77 @@
+* {
+  font-family: 'roboto';
+}
+
+.bg-container {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  width: 400px;
+  min-height: 40%;
+  background-color: #150b3e;
+  padding: 30px;
+  border-radius: 20px;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+.profile-pic {
+  padding: 22px 28px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+}
+.name {
+  font-size: 20px;
+  color: #d4d2db;
+  margin-left: 20px;
+}
+.your-balance {
+  font-size: 23px;
+  color: #585076;
+  margin-left: 20px;
+}
+.rupees-container {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: auto;
+}
+.rupees-count {
+  font-size: 35px;
+  color: #d4d2db;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.in-rupees {
+  font-size: 16px;
+  color: #585076;
+  margin-left: 20px;
+  margin: 0;
+}
+.withdraw-container {
+}
+.withdraw-container-heading {
+  font-size: 30px;
+  color: #d4d2db;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.choose-sum-text {
+  font-size: 17px;
+  color: #585076;
+}
+.denominations-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  list-style-type: none;
+}
