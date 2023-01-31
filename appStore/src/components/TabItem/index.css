@@ -1,0 +1,17 @@
+.tab-item-stye {
+  font-size: 20px;
+  color: #7b8794;
+  margin: 0px 20px;
+  cursor: pointer;
+}
+.active-tab-item-style {
+  color: #2563eb;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #2563eb;
+}
+.tab-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
