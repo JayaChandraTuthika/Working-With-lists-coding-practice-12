@@ -1,0 +1,32 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10%;
+  min-height: 100vh;
+}
+.main-image {
+  width: 70%;
+  border-radius: 10px;
+  height: 400px;
+}
+.heading {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #1e293b;
+  margin-top: 20px;
+}
+.description {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #64748b;
+  margin-top: 10px;
+}
+.list-container {
+  padding: 0;
+  margin: 5px;
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+}
