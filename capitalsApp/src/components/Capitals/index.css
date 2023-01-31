@@ -1,0 +1,45 @@
+* {
+  /* border: 1px solid black; */
+}
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #93c5fd;
+}
+.inner-card {
+  width: 550px;
+  height: 350px;
+  background-color: #f8fafc;
+  padding: 35px;
+  border-radius: 15px;
+}
+.item-select-container {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+}
+.country-ask-text {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #1e293b;
+  margin-left: 15px;
+}
+.select-capital-box {
+  width: 150px;
+  padding: 5px;
+  color: #323f4b;
+  border-radius: 5px;
+  border: 1px solid #cbd2d9;
+  font-family: 'roboto';
+  font-weight: 600;
+  text-align: left;
+}
+.country {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'roboto';
+  color: BLACK;
+}
