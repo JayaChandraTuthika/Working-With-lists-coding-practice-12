@@ -1,0 +1,124 @@
+* {
+  font-family: 'roboto';
+  /* border: 1px solid black; */
+}
+.bg-container {
+  min-height: 100vh;
+  padding: 35px;
+}
+.first-container {
+  padding: 25px 45px;
+  border-radius: 20px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  /* border: 1px solid black; */
+  margin: 20px;
+}
+
+.first-container-heading {
+  font-size: 30px;
+  color: #475569;
+  font-weight: 600;
+}
+
+.first-container-para {
+  font-size: 20px;
+  color: #7e858e;
+}
+.first-container-part-text {
+  color: #0b69ff;
+  margin-left: 10px;
+}
+.first-container {
+  /* display: flex; */
+}
+
+.third-container {
+  display: flex;
+  padding: 6%;
+  margin-top: 0px;
+  /* border: 1px solid black; */
+}
+.form-container {
+  padding: 4%;
+  border: 1px solid #cbd5e1;
+  border-radius: 20px;
+  width: 35%;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form-heading {
+  font-size: 30px;
+  color: #1e293b;
+  margin: 0;
+}
+.history-container {
+  margin: 15px 25px;
+  padding: 4%;
+  width: 55%;
+  border: 1px solid #cbd5e1;
+  border-radius: 20px;
+}
+.history-heading {
+  margin: 0;
+  font-size: 30px;
+  color: #1e293b;
+}
+
+.label {
+  color: #7e858e;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.input {
+  width: 100%;
+  border: 1px solid #7e858e;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 2px;
+}
+.add-button {
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: #0b69ff;
+  margin-top: 22px;
+}
+* {
+  /* border: 1px solid black; */
+}
+.inner-history-container {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.table-header {
+  padding: 0;
+  width: 100%;
+  display: flex;
+}
+.table-heading {
+  font-size: 20px;
+  color: #475569;
+  font-weight: 600;
+  padding: 8px 25px;
+  width: 33%;
+  margin: 0;
+  text-align: left;
+  border-bottom: 1px solid #d7dfe9;
+}
+.list-container {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

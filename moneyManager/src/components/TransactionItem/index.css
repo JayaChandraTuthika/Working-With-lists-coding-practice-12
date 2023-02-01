@@ -1,0 +1,15 @@
+.list-item {
+  padding: 0;
+  width: 100%;
+  display: flex;
+}
+.grid-value {
+  font-size: 16px;
+  color: #475569;
+  /* font-weight: 600; */
+  padding: 8px 25px;
+  width: 33%;
+  margin: 0;
+  text-align: left;
+  border-bottom: 1px solid #d7dfe9;
+}

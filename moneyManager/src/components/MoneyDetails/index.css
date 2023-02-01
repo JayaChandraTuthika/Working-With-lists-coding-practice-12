@@ -1,0 +1,49 @@
+.second-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 0;
+  /* border: 1px solid black; */
+}
+.total-card {
+  border: 1px solid #84cc16;
+  color: #475569;
+  width: 380px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #ecfccb;
+}
+.income-card {
+  border: 1px solid #06b6d4;
+  color: #475569;
+  width: 380px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #cffafe;
+}
+.expenses-card {
+  border: 1px solid #7c3aed;
+  color: #475569;
+  width: 380px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #ede9fe;
+}
+.card-inside-img {
+  height: 75px;
+}
+.card-para-1 {
+  font-size: 30px;
+  margin: 10px 20px;
+}
+.card-para-2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 10px 20px;
+}
