@@ -15,14 +15,7 @@ const transactionTypeOptions = [
   },
 ]
 
-const initialHistoryList = [
-  {
-    id: uuidv4(),
-    title: 'car loan',
-    amount: '20000',
-    type: 'INCOME',
-  },
-]
+const initialHistoryList = []
 
 class MoneyManager extends Component {
   state = {
@@ -52,22 +45,55 @@ class MoneyManager extends Component {
     })
   }
 
-  onAddHistoryItem = () => {
+  onDeleteHistoryItem = id => {
+    const {historyList} = this.state
+
+    const transactionItem = historyList.find(each => each.id === id)
+
+    const newHistoryList = historyList.filter(each => each.id !== id)
+
+    if (transactionItem.type === 'Income') {
+      this.setState(prev => ({income: prev.income - transactionItem.amount}))
+    } else {
+      this.setState(prev => ({
+        expenses: prev.expenses - transactionItem.amount,
+      }))
+    }
+
+    this.setState({
+      historyList: newHistoryList,
+    })
+  }
+
+  onAddHistoryItem = event => {
+    event.preventDefault()
+
     const {titleInput, amountInput, transactionTypeId, historyList} = this.state
 
+    const transactionTypeObject = transactionTypeOptions.find(
+      each => each.optionId === transactionTypeId,
+    )
+
     const newHistoryItem = {
+      id: uuidv4(),
       title: titleInput,
-      amount: amountInput,
-      type: transactionTypeId,
+      amount: parseInt(amountInput),
+      type: transactionTypeObject.displayText,
     }
 
     const newHistoryList = [...historyList, newHistoryItem]
+
+    if (transactionTypeId === 'INCOME') {
+      this.setState(prev => ({income: prev.income + parseInt(amountInput)}))
+    } else {
+      this.setState(prev => ({expenses: prev.expenses + parseInt(amountInput)}))
+    }
 
     this.setState({
       historyList: newHistoryList,
       titleInput: '',
       amountInput: '',
-      tansactionTypeId: 'INCOME',
+      transactionTypeId: 'INCOME',
     })
   }
 
@@ -77,7 +103,7 @@ class MoneyManager extends Component {
       expenses,
       titleInput,
       amountInput,
-      tansactionTypeId,
+      transactionTypeId,
       historyList,
     } = this.state
     return (
@@ -118,11 +144,13 @@ class MoneyManager extends Component {
             </label>
             <select
               className="input"
-              value={tansactionTypeId}
+              value={transactionTypeId}
               onChange={this.onTypeChange}
             >
               {transactionTypeOptions.map(each => (
-                <option value={each.optionId}>{each.displayText}</option>
+                <option value={each.optionId} key={each.optionId}>
+                  {each.displayText}
+                </option>
               ))}
             </select>
             <button className="add-button" type="submit">
@@ -139,7 +167,11 @@ class MoneyManager extends Component {
               </div>
               <ul className="list-container">
                 {historyList.map(each => (
-                  <TransactionItem transactionDetails={each} />
+                  <TransactionItem
+                    transactionDetails={each}
+                    key={each.id}
+                    onDeleteHistoryItem={this.onDeleteHistoryItem}
+                  />
                 ))}
               </ul>
             </div>

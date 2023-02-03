@@ -8,8 +8,19 @@
   color: #475569;
   /* font-weight: 600; */
   padding: 8px 25px;
-  width: 33%;
+  width: 30%;
   margin: 0;
   text-align: left;
   border-bottom: 1px solid #d7dfe9;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 5px;
+  margin-left: auto;
+}
+.delete-icon {
+  height: 20px;
+  margin-right: 10px;
 }
